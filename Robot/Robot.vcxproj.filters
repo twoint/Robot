@@ -1,0 +1,167 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>qrc;rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Form Files">
+      <UniqueIdentifier>{99349809-55BA-4b9d-BF79-8FDBB0286EB3}</UniqueIdentifier>
+      <Extensions>ui</Extensions>
+    </Filter>
+    <Filter Include="Translation Files">
+      <UniqueIdentifier>{639EADAA-A684-42e4-A9AD-28FC9BCB8F7C}</UniqueIdentifier>
+      <Extensions>ts</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="头文件\串口通信">
+      <UniqueIdentifier>{2820187e-2cd7-4bee-bc53-4ac3127e1aa8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="源文件\串口通信">
+      <UniqueIdentifier>{50f9c483-fafe-416b-9adc-9e7a7dd3b1b7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\TCP通信">
+      <UniqueIdentifier>{8117e535-8d94-4250-8557-c60ab3d663c4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\TCP通信">
+      <UniqueIdentifier>{fbae443e-00d9-4fae-a026-8257b9baeac9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Touch">
+      <UniqueIdentifier>{0ff71966-7b9b-49cf-ab1c-aef0654e5eed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Touch">
+      <UniqueIdentifier>{aedb9277-e648-42cd-94dc-d8da28cebaee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Robot">
+      <UniqueIdentifier>{da788f11-8f16-4f67-aee2-5280ba7fe00a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Robot">
+      <UniqueIdentifier>{821ab8da-1051-4553-860a-d1dd415c1f4d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Vrep">
+      <UniqueIdentifier>{54018124-197f-4d08-b16a-041cdebbe4fb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\UI">
+      <UniqueIdentifier>{9123f716-b368-443a-aa45-f475db07470b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\UI">
+      <UniqueIdentifier>{731f7df2-6a09-4237-ac91-850405ef1be5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <QtRcc Include="Robot.qrc">
+      <Filter>Resource Files</Filter>
+    </QtRcc>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Head_File\SerialPort\HydraulicArm.cpp">
+      <Filter>源文件\串口通信</Filter>
+    </ClCompile>
+    <ClCompile Include="Head_File\SerialPort\SerialPort.cpp">
+      <Filter>源文件\串口通信</Filter>
+    </ClCompile>
+    <ClCompile Include="Head_File\TcpSocket\TcpSocket.cpp">
+      <Filter>源文件\TCP通信</Filter>
+    </ClCompile>
+    <ClCompile Include="Head_File\TouchConnect.cpp">
+      <Filter>源文件\Touch</Filter>
+    </ClCompile>
+    <ClCompile Include="Head_File\RobotArm.cpp">
+      <Filter>源文件\Robot</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\WorkSpace\Vs\Robot\Robot\DebugMode.cpp">
+      <Filter>源文件\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\WorkSpace\Vs\Robot\Robot\Login.cpp">
+      <Filter>源文件\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\WorkSpace\Vs\Robot\Robot\ModeSelect.cpp">
+      <Filter>源文件\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\WorkSpace\Vs\Robot\Robot\ServeMode.cpp">
+      <Filter>源文件\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\WorkSpace\Vs\Robot\Robot\WorkMode.cpp">
+      <Filter>源文件\UI</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Head_File\SerialPort\HydraulicArm.h">
+      <Filter>头文件\串口通信</Filter>
+    </ClInclude>
+    <ClInclude Include="Head_File\SerialPort\SerialPort.h">
+      <Filter>头文件\串口通信</Filter>
+    </ClInclude>
+    <ClInclude Include="Head_File\SerialPort\ToolConnect.h">
+      <Filter>头文件\串口通信</Filter>
+    </ClInclude>
+    <ClInclude Include="Head_File\TcpSocket\KebaConnect.h">
+      <Filter>头文件\TCP通信</Filter>
+    </ClInclude>
+    <ClInclude Include="Head_File\TcpSocket\TcpSocket.h">
+      <Filter>头文件\TCP通信</Filter>
+    </ClInclude>
+    <ClInclude Include="Head_File\TouchConnect.h">
+      <Filter>头文件\Touch</Filter>
+    </ClInclude>
+    <ClInclude Include="Head_File\RobotArm.h">
+      <Filter>头文件\Robot</Filter>
+    </ClInclude>
+    <ClInclude Include="Head_File\VrepConnect.h">
+      <Filter>头文件\Vrep</Filter>
+    </ClInclude>
+    <ClInclude Include="Head_File\AutoWork.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Head_File\cvTest.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Head_File\rotation.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <QtUic Include="..\..\..\..\..\..\WorkSpace\Vs\Robot\Robot\Login.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="..\..\..\..\..\..\WorkSpace\Vs\Robot\Robot\DebugMode.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="..\..\..\..\..\..\WorkSpace\Vs\Robot\Robot\ModeSelect.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="..\..\..\..\..\..\WorkSpace\Vs\Robot\Robot\ServeMode.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="..\..\..\..\..\..\WorkSpace\Vs\Robot\Robot\WorkMode.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="..\..\..\..\..\..\WorkSpace\Vs\Robot\Robot\DebugMode.h">
+      <Filter>头文件\UI</Filter>
+    </QtMoc>
+    <QtMoc Include="..\..\..\..\..\..\WorkSpace\Vs\Robot\Robot\Login.h">
+      <Filter>头文件\UI</Filter>
+    </QtMoc>
+    <QtMoc Include="..\..\..\..\..\..\WorkSpace\Vs\Robot\Robot\ModeSelect.h">
+      <Filter>头文件\UI</Filter>
+    </QtMoc>
+    <QtMoc Include="..\..\..\..\..\..\WorkSpace\Vs\Robot\Robot\ServeMode.h">
+      <Filter>头文件\UI</Filter>
+    </QtMoc>
+    <QtMoc Include="..\..\..\..\..\..\WorkSpace\Vs\Robot\Robot\WorkMode.h">
+      <Filter>头文件\UI</Filter>
+    </QtMoc>
+  </ItemGroup>
+</Project>
